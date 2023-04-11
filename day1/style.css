@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.revenue-slider{
+    width: 100%;
+}
+.card-title{
+    color: #526c65;
+}
+.card1-caption{
+    color:#ababab
+}
+.amount{
+    font-size: 40px;
+}
+.secondimg{
+    width: 100px;
+}
+.secondcard{
+    background-color: #f19d80;
+}
+.fifth-card{
+    background-color: #486f66;
+}
+.quote{
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+.payment{
+    text-align: center;
+    color: #92bab1;
+
+}
+.amountpermonth{
+    text-align: center;
+}
+.btnsp{
+   text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.previewinsurance{
+    text-align: center;
+    color: white;
+}
+.btnpurchase,.btnshare{
+    border:none;
+    border-radius: 30px;
+   padding: 14px;
+   width: 145px;
+    
+}
+.btnrevoke{
+    width: 70px;
+    border-radius: 10px;
+    height: 35px;
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nextbill{
+    font-weight: 600;
+    font-size: 22px;
+}
+.footertext{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.duetext{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7a8e88;
+}
+.qb{
+    font-size: 20px;
+    font-weight: 400;
+}
+.billamt{
+    font-weight: 700;
+    font-size: 52px;
+}
+.claimtxt{
+    color: gray;
+    font-size: 13px;
+}
+.revenuetxt{
+    font-weight: 400;
+    font-size: 20px;
+    color: #989898;
+}
+.btnpurchase{
+    background-color: #f5cfcf;
+}
+.btnshare{
+    background-color: #32574f;
+    color: white;
+}
