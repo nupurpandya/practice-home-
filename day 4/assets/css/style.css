@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  background-color: #15181b;
+  width: 345px;
+  height: 100%;
+  flex-shrink: 0;
+}
+.sidebar .sidebar-title {
+  display: flex;
+  padding: 10px;
+  color: white;
+}
+
+ul {
+  padding: 0px 40px;
+}
+ul .link-items {
+  max-width: 200px;
+  list-style-type: none;
+  padding: 5px;
+}
+ul .link-items .menu-items {
+  text-decoration: none;
+  color: white;
+}
+ul .link-items:hover {
+  background-color: #111111;
+}
+ul .link-items:hover .menu-items {
+  color: #19b8e2;
+}
+
+.user-avatar {
+  border-radius: 50%;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.user-details .username, .user-details .useremail {
+  color: white;
+}
+
+.main-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+.main-section .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
+.main-section .header .page-title {
+  color: white;
+}
+.main-section .header .header-content {
+  display: flex;
+}
+
+.card {
+  background-color: #15181b;
+  width: 305px;
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  flex-basis: 24%;
+}
+.card .userpicture {
+  text-align: center;
+}
+.card .userdetails {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card .userdetails .personname {
+  color: #19b8e2;
+  font-size: 16px;
+}
+.card .userdetails .designation {
+  font-size: 13px;
+}
+
+.personal-details {
+  padding-left: 0;
+}
+
+.list {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.fa-brands {
+  margin-right: 10px;
+}
+
+.designation {
+  color: #838f9e;
+}
+
+.card-section {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  overflow: auto;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */

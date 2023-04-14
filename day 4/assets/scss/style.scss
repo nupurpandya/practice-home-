@@ -1,0 +1,127 @@
+// Font-family: Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+$sidebar-color:#15181b;
+$body-bgcolor:#111111;
+body{
+   background-color: $body-bgcolor;
+   font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+   background-color: $sidebar-color;
+   width: 345px;
+   height: 100%;
+   flex-shrink: 0;
+   .sidebar-title{
+      display: flex;
+      padding: 10px;
+      color: white;
+   }
+}
+ul{
+   padding: 0px 40px;
+   .link-items{
+   max-width: 200px;
+   list-style-type: none;
+   padding: 5px;
+   // margin: 50px;
+      .menu-items{
+         text-decoration: none;
+         color: white;
+      }
+   }
+   .link-items:hover{
+      background-color: #111111;
+      .menu-items{
+         color:#19b8e2
+      }
+   }
+}
+
+.user-avatar{
+   border-radius: 50%;
+}
+
+.wrapper{
+  display: flex;
+   height: 100%;
+   
+}
+.user-details{
+   .username,.useremail{
+      color: white;
+   }
+}
+.main-section{
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   height: 100%;
+   .header{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 2px solid grey;
+      
+         .page-title{
+            color: white;
+         }
+      .header-content{
+         display: flex;
+      }
+   }
+}
+.card{
+   background-color: $sidebar-color;
+   width: 305px;
+   padding: 20px;
+   margin-left: 10px;
+   border-radius: 5px;
+   flex-basis: 24%;
+   .userpicture{
+      text-align: center;
+   }
+   .userdetails{
+      text-align: center;
+      margin-bottom: 10px;
+      .personname{
+         color: #19b8e2;
+         font-size: 16px;
+      }
+      .designation{
+         font-size: 13px;
+      }
+   }
+}
+.personal-details{
+   padding-left: 0;
+}
+.list{
+   list-style-type: none;
+   margin-bottom: 10px;
+   color: white;
+   font-size: 12px;
+}
+.fa-brands{
+   margin-right: 10px;
+}
+.designation{
+   color: #838f9e;
+}
+.card-section{
+   display: flex;
+   width: 100%;
+   margin-top: 10px;
+   overflow: auto;
+   flex-wrap: wrap;
+}

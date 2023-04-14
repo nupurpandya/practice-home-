@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+$red:#EB5757;
+$white:white;
+$blue-grey:#90A4AE;
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card-content{
+    background-color: $red;
+    padding: 12px;
+    // border-radius: 16px;
+}
+.progress-status{
+   margin-left: 120px;
+   font-weight: 400;
+font-size: 13px;
+color: $blue-grey;
+}
+.card-wrapper{
+   width: 100vw;
+   
+   max-width: 774px;
+   border-radius: 16px;
+//    border: 1px solid;
+
+}
+.card2-topic{
+    font-weight: 600;
+font-size: 32px;
+}
+.card2-title{
+    color: $blue-grey;
+    font-weight: 400;
+font-size: 13px;
+}
+.card-text{
+    font-weight: 400;
+font-size: 13px;
+color: $white;
+}
+.card-title{
+    font-weight: 600;
+font-size: 30px;
+color: $white;
+}
+.btn-nxtc{
+    background-color: $red;
+    border-radius: 32px;
+    color: $white;
+}
+.card-heading{
+    font-weight: 400;
+font-size: 13px;
+color: $white;
+}
+.card-body{
+    border: 1px solid black;
+}

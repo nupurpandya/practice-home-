@@ -1,0 +1,39 @@
+:root{
+    --medium-gray:rgb(96,96,96);
+    --light-gray:rgb(144,144,144);
+    --lightest-gray:rgb(249,249,249);
+    --dark-gray:rgb(13,13,13);
+    --accent-color:rgb(204,0,0);
+
+}
+body{
+    margin: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.menu-icon{
+    width: 25px;
+    height: 25px;
+    fill:var(--medium-gray);
+    cursor: pointer;
+}
+.menu-icon:hover{
+    fill: var(--dark-gray);
+}
+.menu-icon-btn{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .4);
+}
+.sidebar{
+    width: 75px;
+    border:1px solid var(--light-gray);
+    padding: 1rem;
+}
